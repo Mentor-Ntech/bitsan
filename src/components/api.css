@@ -1,0 +1,18 @@
+.api {
+    background-color: white;
+    
+    
+    
+}
+
+.main__api-left {
+    border: 3px solid antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.3);
+    padding: 2rem  1rem;
+    text-align: center;
+    
+    
+}
+.btn.api {
+   margin-bottom: 1rem; 
+}

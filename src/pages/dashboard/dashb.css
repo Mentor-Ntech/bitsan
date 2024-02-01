@@ -1,0 +1,172 @@
+.dashboard-container {
+  /* display: flex; */
+}
+
+.dashboard-header {
+  height: 80px;
+  width: 100%;
+  background: #eee;
+  border-bottom: 2px solid white;
+}
+
+.dashboard-left {
+  width: 25%;
+  background: grey;
+  border-right: 2px solid white;
+}
+
+.dashboard-right {
+  width: 75%;
+  float: right;
+  overflow: hidden;
+}
+
+.sidebar {
+  height: 100vh;
+  background: grey;
+  border-right: 2px solid white;
+  position: fixed;
+  left: 0;
+  z-index: 4;
+  width: 25%;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.transaction-box {
+  margin-top: 3em;
+  min-width: 400px;
+  min-height: 300px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.transaction-box input {
+  width: 100%;
+}
+
+.transaction-box input::placeholder {
+  float: left;
+  color: lightgrey;
+  font-size: 15px;
+}
+
+.input-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.transfer-btn {
+  box-sizing: border-box;
+  width: 85%;
+  background: rgb(80, 79, 79);
+  color: #fff
+}
+
+.transfer-btn:hover {
+  background-color: rgb(130, 122, 122);
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  width: 75%;
+  box-sizing: border-box;
+  z-index: 3;
+}
+
+.header-right {
+  width: 70%;
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-left {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.connect-wallet {
+  width: 50%;
+  background: #41a1f4;
+  margin-right: 2em;
+  color: #fff
+}
+
+.connect-wallet:hover {
+  background-color: #778693;
+
+}
+
+.sidebar-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(154, 140, 140);
+  padding: 15px 20px;
+  background: #eee;
+  flex-direction: column;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border: 2px solid rgb(154, 140, 140);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: lightgray;
+}
+
+.sidebar-bottom ul li {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-bottom ul li {
+  height: 50px;
+  border-bottom: 1px solid rgb(154, 140, 140);
+  color: #4c4d4e;
+  background: grey;
+}
+
+.sidebar-bottom ul li:hover {
+  background: rgb(83, 81, 81);
+  color: #fff;
+}
+
+.activeTab li{
+  background: rgb(83, 81, 81) !important;
+  color: #fff !important;
+}

@@ -1,0 +1,67 @@
+body 
+
+.platform {
+    margin-top: 0;
+}
+
+.subHeader {
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+.primary {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1;
+    margin-top: 1.5rem;
+}
+
+.checkText {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.checkout__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+    padding: 2rem 3rem;
+}
+
+
+.card.checkouts__checkout {
+    padding-top: 3.5rem;
+    text-align: left;
+    position: relative;
+}
+
+.card.checkouts__checkout span {
+    position: absolute;
+    top: -1.5rem;
+}
+
+.platform__section-image {
+    height: 450px;
+    width: 350px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.platform__section-content {
+    margin-bottom: 2rem;
+}
+
+.platform__section-content p {
+    margin-bottom: 1rem;
+}
+
+.platform__story-container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}
+

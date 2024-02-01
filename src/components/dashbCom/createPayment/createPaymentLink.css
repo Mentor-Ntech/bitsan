@@ -1,0 +1,110 @@
+.create-link-container{
+    border:1px solid gray;
+    margin-bottom: 2em;
+}
+.link-payment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.link-pay-container{
+    padding: 20px;
+}
+.link-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    background-color: pink;
+    margin-right: 1em;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.link-form{
+    margin-bottom: 2rem;
+}
+
+.link-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link-para-text {
+    font-size: 10px;
+   color: gray;
+}
+
+.text-box {
+    min-width: 47%;
+    max-width: 47%;
+    min-height: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.confirmation-page-content{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    padding: 20px;
+    min-height: 300px;
+    /* justify-content: space-between; */
+}
+
+
+.confirmation-type{
+    display: flex;
+    cursor: pointer;
+}
+.confirmation-page-header{
+    padding: 20px;
+    border-top: 1px dotted gray;
+}
+input[type=radio]{
+    width: fit-content !important;
+    margin-right: 1em;
+    /*accent-color: #41a1f4;
+    */color: #41a1f4;
+    width: 50px;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+input::placeholder{
+    float: left;
+    color: gray;
+}
+input{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btnPay {
+    min-width: 47%;
+    max-width: 47%;
+    background-color: #41a1f4;
+    color: white;
+    border-radius: 5px;
+   
+}
+.btn-container{
+    padding: 20px;
+}

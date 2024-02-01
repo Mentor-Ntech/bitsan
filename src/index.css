@@ -1,0 +1,233 @@
+*,
+*::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+   /* --primary-color: #fdfcfa; */
+   --primary-color: #F3F3F3;
+   --secondary-color: #333;
+   --tertiary-color: #fff;
+   
+   --color-primary-variant: var(--primary-color);
+
+
+   --container-width-lg: 80%;
+   --container-width-md: 90%;
+
+   --transition: all 500ms ease;;
+}
+
+/* GENERAL STYLES*/
+body {
+   font-family: 'Montserrat', sans-serif; 
+   color: var(--secondary-color);
+   line-height: 1.7;
+   /* overflow: hidden; */
+   background: var(--primary-color);
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+}
+
+h1, h2, h3, h4, h5 {
+   line-height: 1.2;
+   color: var(--secondary-color); 
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.btn {
+    color: #fff;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.9rem 2rem;
+    background-color: 1a1f4;
+    transition: var(--transition);
+    border-radius:1.5rem ;
+    -webkit-border-radius:1.5rem ;
+    -moz-border-radius:1.5rem ;
+    -ms-border-radius:1.5rem ;
+    -o-border-radius:1.5rem ;
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.btn:hover {
+   background: #fbfba7;
+   color: #333; 
+}
+
+.btn.lg {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background: #41a1f4;
+
+}
+
+.btn.sm {
+    padding: 0.4rem 1.2rem;
+    font-size: 0.9rem;
+    margin-top: 3rem;
+}
+
+.btn.sm:hover {
+    background: #41a1f4;
+    color: #333;
+}
+
+
+
+
+
+
+
+section {
+    margin-top: 10rem;
+}
+
+.section__head {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section__head span {
+   background: #e0ecf5;
+   color: #f4c46c;
+   font-size: 1.5rem;
+   padding: 0.8rem;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+}
+
+.card {
+    background: #093d6c;
+    border: 2px solid transparent;
+    text-align: center;
+    transition: var(--transition);
+    padding: 3rem 2rem;
+    border-radius: 0 3rem 0 3rem;
+    -webkit-border-radius: 0 3rem 0 3rem;
+    -moz-border-radius: 0 3rem 0 3rem;
+    -ms-border-radius: 0 3rem 0 3rem;
+    -o-border-radius: 0 3rem 0 3rem;
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.card:hover {
+    background: transparent;
+    border-color: #fff;
+    cursor: default;
+}
+
+.card span {
+    width: 3rem;
+    height: 3rem;
+    background-color: #e0ecf5;
+    color: #f4c46c;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 1.5rem;
+    margin-inline: auto;
+    transition: var(--transition);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.card:hover span {
+    background-color: #a1cff2;
+    color: #fbfba7;
+}
+.card small {
+    margin-top: 1rem;
+    display: block;
+    font-weight: 300;
+}
+
+/*******************
+MEDIA QUERIES (medium scale)
+*******************/
+@media screen and (min-width: 1024px) {
+   .container {
+     width: var(--container-width-md);
+   }
+   h1 {
+    font-size: 2rem;
+   }
+   h2 {
+    font-size: 1.6rem;
+   }
+}
+
+/*******************
+MEDIA QUERIES (medium scale)
+*******************/
+@media screen and (min-width: 600px) {
+    h1{
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+}
+
+.platform__section-content {
+    margin-bottom: 2rem;
+}
+
+.platform__section-content p {
+    margin-bottom: 1rem;
+}
+
+.platform__story-container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+}

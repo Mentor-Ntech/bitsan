@@ -1,0 +1,22 @@
+.container-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    background-color:#41a1f4;
+    color:#fff;
+}
+.link-disabled-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.link-disabled-box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

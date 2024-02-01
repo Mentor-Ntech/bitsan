@@ -1,0 +1,89 @@
+.payout-box {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin-right: 2em;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-1 {
+  background: rgb(199, 190, 191);
+  border: 3px solid rgb(176, 124, 133);
+}
+.box-2 {
+  background: rgb(203, 201, 201);
+  border: 3px solid rgb(93, 69, 73);
+}
+.sending-body {
+  display: flex;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding-left: 5%;
+  height: 70vh;
+}
+.icon-box {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: rgb(231, 170, 163);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.big-text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.small-text {
+  font-size: 15px;
+}
+.sending-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 160px;
+  color: #000;
+}
+.basic-single div{
+    color: #000 !important; 
+}
+.basic-single {
+  /* width: 100% !important; */
+ width: 340px !important;
+ margin-bottom: .5em;
+
+}
+.transaction-box{
+  padding:20px 0px 20px 0px;
+}
+.sending-input{
+  margin-top: 0em !important;
+} 
+.readonly,.input-30{
+  background-color: lightgray;
+}
+.readonly::placeholder,.input-30::placeholder{
+  color: #000 !important;
+}
+.flex-input{
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-70{
+  width: 60% !important;
+  border-radius:5px 0px 0px 5px;
+}
+.input-30{
+  width: 20% !important;
+  border-radius:0px 5px 5px 0px;
+}
+.transfer-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

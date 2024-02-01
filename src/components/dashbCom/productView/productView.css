@@ -1,0 +1,48 @@
+.top-box {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.amount-gen-box {
+    height: 50px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.copy-link {
+    width: fit-content;
+    padding: 20px 0px;
+    /* border: 1px solid #000; */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-box {
+    height: 100px;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.view-body {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 6em;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.view-table{
+    width: 100%;
+    padding: 20px;
+}
