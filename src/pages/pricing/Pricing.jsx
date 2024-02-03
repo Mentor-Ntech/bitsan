@@ -8,8 +8,17 @@ import {GoRocket} from 'react-icons/go'
 import {VscArrowSwap} from 'react-icons/vsc'
 import SectionHeader from '../../components/SectionHeader'
 
+
 import './pricing.css'
-const Pricing = () => {
+
+
+const Pricing = ({icon, title, to}) => {
+
+  <Link to={to} className="link"> {/* Wrap the content with Link and provide the 'to' prop */}
+  <div className="icon">{icon}</div>
+  <h2 className="title">{title}</h2>
+  </Link>
+
   return (
     <>
     
@@ -28,7 +37,7 @@ const Pricing = () => {
     <div className="pricingBis">
       <div className="priceText">
        <h3>PAYMENTS IN</h3>
-       <p></p>
+
       </div>
       <div className="priceLink">
       <SectionHeader icon={<GiPayMoney/>} title="ETH"/>
@@ -144,6 +153,7 @@ const Pricing = () => {
         </div>
         
             <input type="text"  value="" class="inputSearch" placeholder='USD' />
+            <label htmlFor="text"></label>
             
         </div>
         <div className="icon-Price">
