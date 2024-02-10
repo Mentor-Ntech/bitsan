@@ -9,7 +9,7 @@ const Usecase = () => {
   return (
     <section className="usecase">
         <div className="container usecase__container">
-            <SectionHeader icon={<BsCashCoin/>} title="usecase"/>
+            <SectionHeader className="cashCoin" icon={<BsCashCoin/>} title="usecase"/>
         
         <div className="usecase__wrapper">
             {

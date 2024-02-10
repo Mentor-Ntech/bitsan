@@ -19,7 +19,7 @@ const Checkout = () => {
             <span>Platform</span>
             <span>Checkout</span>
           <h1>Fast and secure way to receive crypto payments</h1>
-          <h3>Superior fast payment and settlemen <br />infrastructure to accept cross-border payment <br/>from customers. On web and mobile</h3>
+          <h3>Superior fast payment and settlement <br />infrastructure to accept cross-border payment <br/>from customers. On web and mobile</h3>
           <Link to='/contact' className='btn lg'>Get Start</Link>
           
         </div>
@@ -39,7 +39,7 @@ const Checkout = () => {
     <div className='subHeader'>
         <div className="primary">
             <h1 className='checkText'>A payment solution <br/>that helps you grow</h1>
-            <p>Exprience what it means for your business to be truly <br />
+            <p>Experience what it means for your business to be truly <br />
             borderless We're your business's gateway to receiving <br />
             global payments </p>
         </div>
