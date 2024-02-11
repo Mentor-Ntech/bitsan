@@ -88,15 +88,22 @@ img {
 
 .btn.lg {
     padding: 1rem 2.5rem;
+    color: #333;
     font-size: 1.1rem;
     border-radius: 2rem;
     -webkit-border-radius: 2rem;
     -moz-border-radius: 2rem;
     -ms-border-radius: 2rem;
     -o-border-radius: 2rem;
-    background: #41a1f4;
+    background: #f1f4f6;
 
 }
+
+.btn.lg:hover {
+    background: #41a1f4;
+    color: #333;
+}
+
 
 .btn.sm {
     padding: 0.4rem 1.2rem;

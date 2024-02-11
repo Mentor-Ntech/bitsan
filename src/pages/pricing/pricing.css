@@ -209,6 +209,25 @@ input .icon {
     color: #1d1b1b;
 }
 
+.transaction {
+    gap: 3rem;
+}
+
+.transaction-plan--complete {
+    padding: 3rem;
+}
+
+.list-item .FiClk .bsCharge .goRock{ 
+    font-size: 2rem;
+}
+
+.list .list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   gap: 10px;
+}
+
 
  
 

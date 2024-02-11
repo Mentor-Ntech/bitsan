@@ -88,15 +88,15 @@ const Pricing = ({ icon, title, to }) => {
           </header>
           <ul className="list">
             <li className="list-item">
-              <FiClock />
+              <FiClock  className="fiClk"/>
               <span>24/7 in-hours support</span>
             </li>
             <li className="list-item">
-              <BsLightningCharge />
+              <BsLightningCharge  className="bsCharge"/>
               <span>Instant assests withdrawal</span>
             </li>
             <li className="list-item">
-              <GoRocket />
+              <GoRocket  className="goRock"/>
               <span>Fast payouts to Bank account</span>
             </li>
           </ul>
