@@ -76,7 +76,7 @@ const Checkout = () => {
     
   
   <section className="platform__flex">
-      <div className="container platfor__flex-container">
+      <div className="container platform__flex-container">
         <div className="platform__section-content">
         <h1>Accept payments in multiple cryptocurrencies</h1>
         <h3>Accept payment from a wide variety of option <br />including Binance USD, Celo CUSDT, USDC <br/>Stablecoin and all other coin</h3>

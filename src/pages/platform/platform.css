@@ -1,5 +1,3 @@
-body 
-
 .platform {
     margin-top: 0;
 }
@@ -53,10 +51,15 @@ body
 
 .platform__section-content {
     margin-bottom: 2rem;
+    padding-left: 50px;
+   
 }
+
+
 
 .platform__section-content p {
     margin-bottom: 1rem;
+    
 }
 
 .platform__story-container {
