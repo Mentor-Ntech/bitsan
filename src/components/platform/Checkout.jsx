@@ -43,7 +43,7 @@ const Checkout = () => {
             <p>
               Experience what it means for your business to be truly <br />
               borderless We're your business's gateway to receiving <br />
-              global payments{" "}
+              globallly payments{" "}
             </p>
           </div>
         </div>
