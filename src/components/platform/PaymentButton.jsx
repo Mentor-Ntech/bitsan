@@ -52,7 +52,7 @@ const PaymentButton = () => {
           <div className="appIcon">
             <GiDiscussion/>
             <h2>Ecommerce</h2>
-            <p>Shopify, Woocommerce, and online stores and <br /> receive  Stablecoin with automatic <br /> settlement in USDT</p>
+            <p>Shopify, Woocommerce, and online stores and <br /> receive Stablecoin with automatic <br /> settlement in USDT</p>
           </div>
         </div>
         
